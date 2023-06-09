@@ -1,4 +1,4 @@
-import { U as User, P as Perfil } from "./main-14f6819a.js";
+import { U as User, P as Perfil } from "./main-9a5ec2d8.js";
 const registroVista = {
   template: `
     <div

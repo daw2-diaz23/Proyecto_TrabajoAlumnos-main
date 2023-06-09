@@ -11981,13 +11981,13 @@ const enrutador = {
     home: __vitePreload(() => import("./homeVista-ed18cce3.js"), true ? [] : void 0, import.meta.url),
     // Usuarios
     adminUsuarios: __vitePreload(() => import("./adminVista-bbf3953d.js"), true ? [] : void 0, import.meta.url),
-    registro: __vitePreload(() => import("./registroVista-2c840756.js"), true ? [] : void 0, import.meta.url),
-    login: __vitePreload(() => import("./loginVistas-03c6d8ab.js"), true ? [] : void 0, import.meta.url),
+    registro: __vitePreload(() => import("./registroVista-cd5161b6.js"), true ? [] : void 0, import.meta.url),
+    login: __vitePreload(() => import("./loginVistas-34c0870c.js"), true ? [] : void 0, import.meta.url),
     // Proyectos
-    proyectos: __vitePreload(() => import("./proyectosVista-25731e54.js"), true ? ["./proyectosVista-25731e54.js","./proyecto-f5148a9d.js","./detalleProyectoVista-ed03ccc4.js","./editarProyectoVista-54f2437a.js"] : void 0, import.meta.url),
-    nuevoProyecto: __vitePreload(() => import("./nuevoProyectoVista-8a6fb5ff.js"), true ? ["./nuevoProyectoVista-8a6fb5ff.js","./proyecto-f5148a9d.js"] : void 0, import.meta.url),
-    editarProyecto: __vitePreload(() => import("./editarProyectoVista-54f2437a.js"), true ? ["./editarProyectoVista-54f2437a.js","./proyecto-f5148a9d.js"] : void 0, import.meta.url),
-    detalleProyecto: __vitePreload(() => import("./detalleProyectoVista-ed03ccc4.js"), true ? ["./detalleProyectoVista-ed03ccc4.js","./proyecto-f5148a9d.js"] : void 0, import.meta.url)
+    proyectos: __vitePreload(() => import("./proyectosVista-3593c35e.js"), true ? ["./proyectosVista-3593c35e.js","./proyecto-8c0603f7.js","./detalleProyectoVista-91b89331.js","./editarProyectoVista-1f78d3e5.js"] : void 0, import.meta.url),
+    nuevoProyecto: __vitePreload(() => import("./nuevoProyectoVista-e5cdbe65.js"), true ? ["./nuevoProyectoVista-e5cdbe65.js","./proyecto-8c0603f7.js"] : void 0, import.meta.url),
+    editarProyecto: __vitePreload(() => import("./editarProyectoVista-1f78d3e5.js"), true ? ["./editarProyectoVista-1f78d3e5.js","./proyecto-8c0603f7.js"] : void 0, import.meta.url),
+    detalleProyecto: __vitePreload(() => import("./detalleProyectoVista-91b89331.js"), true ? ["./detalleProyectoVista-91b89331.js","./proyecto-8c0603f7.js"] : void 0, import.meta.url)
   },
   // Método que obtiene la ruta del navegador
   router: async () => {
