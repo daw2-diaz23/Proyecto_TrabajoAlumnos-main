@@ -1,5 +1,5 @@
-import { P as Proyecto } from "./proyecto-8c0603f7.js";
-import "./main-9a5ec2d8.js";
+import { P as Proyecto } from "./proyecto-96b15759.js";
+import "./main-83076e2b.js";
 const editarProyecto = {
   template: `
 

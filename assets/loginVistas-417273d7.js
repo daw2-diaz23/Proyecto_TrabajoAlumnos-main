@@ -1,4 +1,4 @@
-import { U as User, P as Perfil, m as menuUsuario, a as menuSuperior } from "./main-9a5ec2d8.js";
+import { U as User, P as Perfil, m as menuUsuario, a as menuSuperior } from "./main-83076e2b.js";
 const loginVistas = {
   template: `
     <div

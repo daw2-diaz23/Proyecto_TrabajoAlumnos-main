@@ -6706,7 +6706,7 @@ const menuUsuario = {
           <span id="emailUsuarioLogueado" class="pe-3 text-dark"></span>
             <img
               id="imgAvatar"
-              src="../assets/avatar.svg"
+              src="https://cdn.pixabay.com/photo/2021/01/04/10/37/icon-5887113_1280.png"
               alt="Logo"
               width="30"
               height="30"
@@ -6846,7 +6846,7 @@ const menuUsuario = {
     document.querySelector("#menuUsuario").innerHTML = items[rol];
     if (rol !== "anonimo") {
       perfilLogueado.avatar;
-      document.querySelector("#imgAvatar").src = "../assets/avatar.svg";
+      document.querySelector("#imgAvatar").src = "https://images.vexels.com/media/users/3/202526/isolated/preview/1c2ebd49adf69af3336b073db877bb3b-icono-de-dibujos-animados-de-avatar-de-gato-negro.png ";
       console.log(perfilLogueado);
       document.querySelector("#emailUsuarioLogueado").innerHTML = perfilLogueado.email;
       document.querySelector("#rolUsuarioLogueado").innerHTML = rol;
@@ -6879,7 +6879,7 @@ const header = {
   <div class="container-fluid">
     <a class="navbar-brand d-flex align-items-center" href="#/home">
       <img
-        src="https://www.pngall.com/wp-content/uploads/12/Avatar-Profile-Vector-PNG-Images-HD.png"
+        src="https://images.vexels.com/media/users/3/202614/isolated/preview/e36f1f4f1dbeebf5cb02c49ce01544d0-icono-de-dibujos-animados-de-avatar-de-frankenstein.png"
         alt=""
         width="40"
         height="40"
@@ -11978,16 +11978,16 @@ defineJQueryPlugin(Toast);
 const enrutador = {
   // Objeto (diccionario) con todas las rutas y su vista asociada
   rutas: {
-    home: __vitePreload(() => import("./homeVista-ed18cce3.js"), true ? [] : void 0, import.meta.url),
+    home: __vitePreload(() => import("./homeVista-4880a087.js"), true ? [] : void 0, import.meta.url),
     // Usuarios
     adminUsuarios: __vitePreload(() => import("./adminVista-bbf3953d.js"), true ? [] : void 0, import.meta.url),
-    registro: __vitePreload(() => import("./registroVista-cd5161b6.js"), true ? [] : void 0, import.meta.url),
-    login: __vitePreload(() => import("./loginVistas-34c0870c.js"), true ? [] : void 0, import.meta.url),
+    registro: __vitePreload(() => import("./registroVista-461fb365.js"), true ? [] : void 0, import.meta.url),
+    login: __vitePreload(() => import("./loginVistas-417273d7.js"), true ? [] : void 0, import.meta.url),
     // Proyectos
-    proyectos: __vitePreload(() => import("./proyectosVista-3593c35e.js"), true ? ["./proyectosVista-3593c35e.js","./proyecto-8c0603f7.js","./detalleProyectoVista-91b89331.js","./editarProyectoVista-1f78d3e5.js"] : void 0, import.meta.url),
-    nuevoProyecto: __vitePreload(() => import("./nuevoProyectoVista-e5cdbe65.js"), true ? ["./nuevoProyectoVista-e5cdbe65.js","./proyecto-8c0603f7.js"] : void 0, import.meta.url),
-    editarProyecto: __vitePreload(() => import("./editarProyectoVista-1f78d3e5.js"), true ? ["./editarProyectoVista-1f78d3e5.js","./proyecto-8c0603f7.js"] : void 0, import.meta.url),
-    detalleProyecto: __vitePreload(() => import("./detalleProyectoVista-91b89331.js"), true ? ["./detalleProyectoVista-91b89331.js","./proyecto-8c0603f7.js"] : void 0, import.meta.url)
+    proyectos: __vitePreload(() => import("./proyectosVista-72852214.js"), true ? ["./proyectosVista-72852214.js","./proyecto-96b15759.js","./detalleProyectoVista-4811042f.js","./editarProyectoVista-8b06f9ab.js"] : void 0, import.meta.url),
+    nuevoProyecto: __vitePreload(() => import("./nuevoProyectoVista-ed5bd5e9.js"), true ? ["./nuevoProyectoVista-ed5bd5e9.js","./proyecto-96b15759.js"] : void 0, import.meta.url),
+    editarProyecto: __vitePreload(() => import("./editarProyectoVista-8b06f9ab.js"), true ? ["./editarProyectoVista-8b06f9ab.js","./proyecto-96b15759.js"] : void 0, import.meta.url),
+    detalleProyecto: __vitePreload(() => import("./detalleProyectoVista-4811042f.js"), true ? ["./detalleProyectoVista-4811042f.js","./proyecto-96b15759.js"] : void 0, import.meta.url)
   },
   // Método que obtiene la ruta del navegador
   router: async () => {
